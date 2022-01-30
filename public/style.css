@@ -22,7 +22,7 @@ a{
   padding: 10px;
 }
 .header{
-
+  display: flex;
   background-color: #2E4052;
   padding: 10px;
 
@@ -30,7 +30,7 @@ a{
 .header div{
 
 position: absolute;
-  display: flex;
+display: flex;
 right:0;
 text-align: center;
 
@@ -49,47 +49,13 @@ width:100%;
 
 }
 
-
-.header {
-  display: flex;
-
+/*************CONTENT***********/
+.content img{
+  height: 400px;
+  width:400px;
 }
+.content{
+  display:grid;
 
 
-
-
-
-/*//////////////////////////////////*/
-
-.slider{
-    overflow: hidden;
-
-}
-.slider > .slider-content{
-    display: flex;
-    flex-wrap: nowrap;
-    width: 100%;
-    transition: all 500ms ease;
-
-
-}
-
-.slider > .slider-content > .slider-item {
-    flex: 0 0 auto;
-    width: 100%;
-}
-
-.slider > input:nth-child(1):checked ~ .slider-content{
-    transform: translateX(0%);
-}
-
-.slider > input:nth-child(2):checked ~ .slider-content{
-    transform: translateX(-100%);
-}
-.slider > input:nth-child(3):checked ~ .slider-content{
-    transform: translateX(-200%);
-}
-
-.slider > input:nth-child(4):checked ~ .slider-content{
-    transform: translateX(-300%);
 }
