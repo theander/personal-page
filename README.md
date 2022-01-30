@@ -1,2 +1,2 @@
 # personal-page
-Personal page to show my portifólios and skills
+Personal page to show my portifolios and skills.

@@ -1,0 +1,95 @@
+html{
+  color: #FFFFFF;
+  background-color: #D3DEDC;
+
+}
+body{
+  padding: 0;
+  margin:0;
+}
+
+h1{
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+}
+p{
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  margin: 10px;
+
+}
+a{
+  margin: 5px;
+  padding: 10px;
+}
+.header{
+
+  background-color: #2E4052;
+  padding: 10px;
+
+}
+.header div{
+
+position: absolute;
+  display: flex;
+right:0;
+text-align: center;
+
+}
+
+.footer{
+position: fixed;
+text-align: center;
+left: 0;
+bottom: 0;
+width:100%;
+}
+
+.header p:hover {
+  font-size: 110%;
+
+}
+
+
+.header {
+  display: flex;
+
+}
+
+
+
+
+
+/*//////////////////////////////////*/
+
+.slider{
+    overflow: hidden;
+
+}
+.slider > .slider-content{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    transition: all 500ms ease;
+
+
+}
+
+.slider > .slider-content > .slider-item {
+    flex: 0 0 auto;
+    width: 100%;
+}
+
+.slider > input:nth-child(1):checked ~ .slider-content{
+    transform: translateX(0%);
+}
+
+.slider > input:nth-child(2):checked ~ .slider-content{
+    transform: translateX(-100%);
+}
+.slider > input:nth-child(3):checked ~ .slider-content{
+    transform: translateX(-200%);
+}
+
+.slider > input:nth-child(4):checked ~ .slider-content{
+    transform: translateX(-300%);
+}
